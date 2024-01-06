@@ -15,11 +15,51 @@ main {
 
 .calculator {
     height: 800px;
-    width: 500px;
+    width: 420px;
     margin: 5%;
-    background: url("stacked-steps-haikei.svg");
-    border-radius: 20px;
+    background: rgb(33,33,33,255);
+    border-radius: 40px;
     box-shadow: 0px 15px 5px 5px rgb(44, 44, 44);
     display: flex;
     flex-direction: column;
+}
+
+.screen {
+    height: 200px;
+    width: 370px;
+    margin: auto;
+    background-color: rgb(165, 165, 165);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.buttons-cont {
+    height: 480px;
+    width: 370px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.button {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: rgb(33,33,33,255);
+    color: white;
+}
+
+.zero {
+    width: 176px;
+    border-radius: 50px;
+}
+
+.operation {
+    color: rgba(255,136,35,255);
+}
+
+.equal {
+    background: rgba(255,136,35,255);
 }
