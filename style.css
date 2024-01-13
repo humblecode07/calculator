@@ -25,13 +25,55 @@ main {
 }
 
 .screen {
-    height: 200px;
+    height: 150px;
     width: 370px;
     margin: auto;
-    background-color: rgb(165, 165, 165);
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
+
+.input-cont {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.input {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poiret One', sans-serif;
+}
+
+.answer-cont {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.answer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poiret One', sans-serif;
+}
+
+
 
 .buttons-cont {
     height: 480px;
@@ -40,19 +82,22 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 26px;   
 }
 
 .button {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     background: rgb(33,33,33,255);
     color: white;
+    box-shadow:  0px 5px 10px 0px rgb(10, 10, 10);
+    font-size: large;
+    font-family: 'Poiret One', sans-serif;
 }
 
 .zero {
-    width: 176px;
+    width: 166px;
     border-radius: 50px;
 }
 
